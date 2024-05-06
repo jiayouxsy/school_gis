@@ -6,40 +6,138 @@
     const data = [
         {
             id: 1,
-            label: '井盖',
+            label: '公共设施',
             children: [
                 {
-                    id: 4,
-                    label: '电力井盖',
+                    id: 1-1,
+                    label: '各类井盖',
                 },
                 {
-                    id: 5,
-                    label: '电信井盖',
+                    id: 1-2,
+                    label: '监控电子眼',
                 },
                 {
-                    id: 6,
-                    label: '给水井盖',
+                    id: 1-3,
+                    label: '立杆',
                 },
                 {
-                    id: 7,
-                    label: '排水井盖',
+                    id: 1-4,
+                    label: '路灯',
                 },
                 {
-                    id: 8,
-                    label: '燃气井盖',
+                    id: 1-5,
+                    label: '消防设施',
+                },
+                {
+                    id: 1-6,
+                    label: '信息亭',
+                },
+                {
+                    id: 1-7,
+                    label: '邮筒',
+                },
+                {
+                    id: 1-8,
+                    label: '雨水箅子',
+                },
+                {
+                    id: 1-9,
+                    label: '邮筒',
+                },
+                {
+                    id: 1-10,
+                    label: '治安岗亭',
                 },
             ],
         },
         {
             id: 2,
-            label: '消防设施',
-
+            label: '道路交通',
+            children:[
+                {
+                    id:2-1,
+                    label:'路名牌'
+                },
+                {
+                    id:2-2,
+                    label:'交通标志牌'
+                },
+                {
+                    id:2-3,
+                    label:'跨河桥'
+                },
+                {
+                    id:2-4,
+                    label:'公交站亭'
+                },
+                {
+                    id:2-5,
+                    label:'停车场'
+                },
+            ]
         },
         {
             id: 3,
-            label: '路灯',
+            label: '房屋土地',
+            children:
+            [
+                {
+                    id:3-1,
+                    label:'宣传栏'
+                }
+            ]
 
         },
+        {
+            id: 4,
+            label: '市容环境',
+            children:
+            [
+                {
+                    id:4-1,
+                    label:'垃圾箱'
+                },
+                {
+                    id:4-2,
+                    label:'化粪池'
+                }
+            ]
+
+        },
+        {
+            id: 5,
+            label: '园林绿化',
+            children:
+            [
+                {
+                    id:5-1,
+                    label:'街头座椅'
+                },
+                {
+                    id:5-2,
+                    label:'喷泉'
+                },
+                {
+                    id:5-2,
+                    label:'雕塑'
+                }
+            ]
+
+        },
+        {
+            id: 6,
+            label: '其他设施',
+            children:
+            [
+                {
+                    id:6-1,
+                    label:'防汛墙'
+                }
+              
+            ]
+
+        }
+
     ]
 
 </script>
